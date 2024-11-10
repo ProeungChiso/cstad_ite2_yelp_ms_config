@@ -14,3 +14,14 @@ spring:
     multipart:
       max-request-size: 10MB
       max-file-size: 10MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mrr.chiso@gmail.com
+    password: ggpw bpws jyfu bady
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
