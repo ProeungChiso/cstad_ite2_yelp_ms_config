@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5168/business
     username: admin
-    password: admin2024
+    password: admin
     driver-class-name: org.postgresql.Driver
   servlet:
     multipart:
